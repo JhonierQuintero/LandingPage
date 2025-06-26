@@ -51,7 +51,7 @@ proyecto-campus-ser/
 
 3. **Para el ChatBot IA:**
    - El frontend del chatbot está integrado.
-   - Si quieres usar tu propio backend, sigue las instrucciones en el [repositorio del ChatBot](https://github.com/[TU_REPO_CHATBOT]).
+   - Si quieres usar tu propio backend, sigue las instrucciones en el [repositorio del ChatBot](https://github.com/JhonierQuintero/FrontEnd_ChatBot_AI.git).
 
 ---
 
