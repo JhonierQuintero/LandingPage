@@ -42,7 +42,7 @@ proyecto-campus-ser/
 
 1. **Clona este repositorio:**
    ```bash
-   git clone https://github.com/tuusuario/proyecto-campus-ser.git
+   git clone https://github.com/JhonierQuintero/LandingPage.git
    cd proyecto-campus-ser
    ```
 
