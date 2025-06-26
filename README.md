@@ -20,7 +20,7 @@ El ChatBot está integrado en la web y responde preguntas sobre cursos, servicio
 > **¿Quieres saber cómo funciona el ChatBot o desplegarlo por separado?**
 >
 > Consulta el repositorio del ChatBot aquí:  
-> 👉 [Repositorio ChatBot IA]()
+> 👉 [Repositorio ChatBot IA](https://github.com/JhonierQuintero/FrontEnd_ChatBot_AI.git)
 
 ---
 
