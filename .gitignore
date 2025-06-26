@@ -1,0 +1,23 @@
+# .gitignore para proyecto CampusLands Academy
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Entornos virtuales Python (si usas backend)
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Archivos de configuración de VSCode
+.vscode/
+
+# Archivos de entorno
+.env
+
+# Node modules (si usas npm para algo)
+node_modules/
+
+# Archivos de log
+*.log
