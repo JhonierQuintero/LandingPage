@@ -16,6 +16,7 @@
             <a href="#cursos">Cursos</a>
             <a href="#beneficios">Beneficios</a>
             <a href="#testimonios">Testimonios</a>
+            <a href="#bot">Preguntas</a>
             <a href="#contacto">Contacto</a>
             
         </div>
@@ -26,8 +27,8 @@
         <h1>Transforma tu Carrera en Programación</h1>
         <p>Únete a nuestra academia y domina las tecnologías más demandadas con nuestra metodología práctica y mentores expertos de la industria.</p>
         <div class="hero-buttons">
-            <button class="btn primary-btn">Explorar Cursos</button>
-            <button class="btn">Registro Gratis</button>
+            <button class="btn primary-btn"><a href="#cursos">Explorar Cursos</a></button>
+            <button class="btn"><a href="./registro/registro.html">Registro Gratis</a></button>
         </div>
     </section>
 
@@ -142,18 +143,22 @@
     </section>
 
     <!-- Sección chatBot -->
-    <div class="container">
-        <h1>Aquí responderás todas tu preguntas de CampusLands</h1>
-        <p>Bienvenido al ChatBot de CampusLands. Aquí podrás encontrar información sobre diversos cursos y servicios.</p>
-        <div id="chat-container">
-            <div id="chat-box"></div>
-            <form action="" id="chat-form">
-                <input type="text" id="user-input" placeholder="Escribe tu mensaje aquí..." autocomplete="off">
-                <button type="submit" id="send-button">Enviar</button>
-            </form>
-        </div> 
-    </div>
-
+    <section class="container-chat-box" id="bot">
+        <div class="imagen">
+            <img src="./assets/botImagen.png" alt="">
+        </div>
+        <div class="container" >
+            <h1>Aquí responderás todas tu preguntas de CampusLands</h1>
+            <p>Bienvenido al ChatBot de CampusLands. Aquí podrás encontrar información sobre diversos cursos y servicios.</p>
+            <div id="chat-container">
+                <div id="chat-box"></div>
+                <form action="" id="chat-form">
+                    <input type="text" id="user-input" placeholder="Escribe tu mensaje aquí..." autocomplete="off">
+                    <button type="submit" id="send-button">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
     <!-- Footer -->
     <footer id="contacto">
         <div class="footer-content">

@@ -1,0 +1,123 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-size: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: url("https://static.vecteezy.com/system/resources/previews/001/879/850/non_2x/high-tech-futuristic-background-free-vector.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    margin-top: 2.5rem;
+    width: 27rem;
+    background-color: transparent;
+    border: 0.125rem solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(0.94rem);
+    box-shadow: 0, 0, 0.625rem rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1.25rem 1.875rem;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 3.125rem;
+    position: relative;
+    margin: 1.875rem 0;
+}
+
+.wrapper h1{
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    padding: 1.25rem 2.9rem 1.25rem 1.25rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 0.125rem solid rgba(255, 255, 255, 0.2);
+    border-radius: 2rem;
+    font-size: 1rem;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.input-box i{
+    position:absolute;
+    top: 50%;
+    right: 1.25rem;
+    transform: translateY(-50%);
+    font-size: 1.25rem;
+}
+
+.wrapper .remember-me{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    margin: -0.9375 0 0.9375;
+}
+
+.remember-me label input{
+    accent-color: #0004ff;
+    margin-right: 0.1875rem;
+}
+
+
+.wrapper .btn{
+    width: 100%;
+    height: 2.9rem;
+    border: none;
+    margin: 1rem 0 1rem 0;
+    outline: none;
+    border-radius: 2rem;
+    box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background-color: rgb(67, 67, 255);
+    font-size: 1rem;
+    color: #fff;
+}
+
+.wrapper .btn:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .login-link{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.wrapper .login-link p a{
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.wrapper .login-link p a:hover{
+    text-decoration: underline;
+}

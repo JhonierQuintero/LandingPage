@@ -27,6 +27,7 @@ body {
     background-image: 
         radial-gradient(circle at 10% 20%, rgba(40, 10, 80, 0.2) 0%, transparent 20%),
         radial-gradient(circle at 90% 80%, rgba(10, 40, 80, 0.2) 0%, transparent 20%);
+    background-size: 200px 200px;
     min-height: 100vh;
 }
 
@@ -169,6 +170,11 @@ body .container {
     z-index: 1;
 }
 
+.btn a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .btn::before {
     content: '';
     position: absolute;
@@ -213,6 +219,11 @@ body .container {
     background: linear-gradient(45deg, var(--neon-cyan), var(--neon-green));
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+.primary-btn a{
+    text-decoration: none;
+    color: white;
 }
 
 /* Animación de código flotante */
@@ -477,9 +488,30 @@ footer {
     color: #777;
 }
 
+.container-chat-box {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imagen {
+    width: 40%;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
 .container{
     margin-top: 2.5rem;
-    width: 50%;
+    width: 40%;
     background-color: transparent;
     border: none;
     backdrop-filter: blur(0.94rem);
