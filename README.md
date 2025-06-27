@@ -28,7 +28,8 @@ El ChatBot está integrado en la web y responde preguntas sobre cursos, servicio
 
 ```
 proyecto-campus-ser/
-├── assets/                  # Imágenes y logos
+├── assets/                 # Imágenes y logos
+├── registro/               # Carpeta de registro donde esta el html y css del registro.
 ├── app.js                  # Lógica JS de la web y el chatbot
 ├── styles.css              # Estilos CSS principales
 ├── index.html              # Página principal
